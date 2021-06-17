@@ -24,7 +24,7 @@
     <label for="skills">{{ __('project.project_skills') }}</label>
     <input type="text" id="skills" name="skills"><br>
 
-    <input type="submit" value="{{ __('project.submit') }}"><br>
+    <input type="submit" value="{{ __('global.submit') }}"><br>
 
 
 </form>

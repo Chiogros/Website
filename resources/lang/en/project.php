@@ -11,7 +11,6 @@ return [
     "project_endDate" => "Project's end date",
     "project_skills" => "Needed skills",
     "choosen_image" => "The choosen image from files.",
-    "submit" => "Submit",
     "add_new_project" => "Add a new project"
 
 ];
