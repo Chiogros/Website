@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\HomeController@index');
+
 Route::get('projects', 'App\Http\Controllers\ProjectsController@index');
+Route::get('projects/create', 'App\Http\Controllers\ProjectsController@create');
+Route::post('projects', 'App\Http\Controllers\ProjectsController@store');
+Route::get('projects/{project_id}/edit', 'App\Http\Controllers\ProjectsController@edit');
+Route::patch('projects/{project_id}', 'App\Http\Controllers\ProjectsController@update');
+Route::delete('projects/{project_id}', 'App\Http\Controllers\ProjectsController@destroy');
+
 Route::get('self', 'App\Http\Controllers\SelfController@index');
+
+Route:get('login', 'App\Http\Controllers\LoginController@index');

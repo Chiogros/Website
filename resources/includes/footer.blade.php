@@ -1,5 +1,5 @@
 <p>
-    <a href="">
+    <a href="login">
         {{ __('global.connect') }}
     </a>
 </p>

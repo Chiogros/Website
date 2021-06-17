@@ -1,9 +1,13 @@
 @extends('layout')
 
 @section('content')
-    <h1>{{ __('projects.projects')  }}</h1>
+    <h1>{{ __('project.projects')  }}</h1>
 
-    <p>{{ __('projects.summary') }}</p>
+    <p>{{ __('project.summary') }}</p>
+
+    @auth
+        <h3><a href="project.create">{{ __('project.add_new_project') }}</a></h3>
+    @endauth
 
     <!-- projects display -->
     @foreach($projects as $project)
