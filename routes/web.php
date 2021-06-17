@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\HomeController@index');
-Route::get('fr', 'App\Http\Controllers\HomeController@index');
+Route::get('projects', 'App\Http\Controllers\ProjectsController@index');

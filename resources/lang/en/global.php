@@ -2,6 +2,6 @@
 
 return [
 
-    'title' => "Alexandre Bouijoux's portofolio"
+    'title' => "Alexandre Bouijoux's portofolio",
 
 ];

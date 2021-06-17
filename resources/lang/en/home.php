@@ -3,6 +3,7 @@
 return [
 
     'welcome' => 'Welcome',
-    'summary' => 'Here you can check any of my projects.'
+    "summary" => "Here is my portofolio, you can find my projects and a little about myself.",
+    'home' => "Home"
 
 ];
