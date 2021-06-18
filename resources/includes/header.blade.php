@@ -1,4 +1,4 @@
-{{ asset('css/header.css') }}
+<link href="{{ asset('css/header.css') }}" rel="stylesheet">
 
 <nav>
     <ul>

@@ -1,4 +1,4 @@
-{{ asset('css/footer.css') }}
+<link href="{{ asset('css/footer.css') }}" rel="stylesheet">
 
 @auth
 
