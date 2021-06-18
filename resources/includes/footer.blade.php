@@ -1,8 +1,8 @@
 @auth
 
-    <a href="{{ url('logout') }}">
-        {{ __('auth.log_out') }}
-    </a>
+    <form method="POST" action="{{ url('logout') }}">
+        <input type="submit" value="{{ __('auth.log_out') }}">
+    </form>
 
 @else
 
