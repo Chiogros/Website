@@ -1,5 +1,13 @@
-<p>
-    <a href="login">
-        {{ __('global.connect') }}
+@auth
+
+    <a href="{{ route('logout') }}">
+        {{ __('auth.log_out') }}
     </a>
-</p>
+
+@else
+
+    <a href="{{ route('loginPage') }}">
+        {{ __('auth.log_in') }}
+    </a>
+
+@endauth
