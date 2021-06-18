@@ -1,3 +1,5 @@
+{{ asset('css/header.css') }}
+
 <nav>
     <ul>
         <li><a href="/">{{ __('home.home') }}</a></li>

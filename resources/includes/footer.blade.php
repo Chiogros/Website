@@ -1,3 +1,5 @@
+{{ asset('css/footer.css') }}
+
 @auth
 
     <form method="POST" action="{{ url('logout') }}">
