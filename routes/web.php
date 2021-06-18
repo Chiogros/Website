@@ -1,8 +1,8 @@
 <?php
 
-use App\Http\Controllers\ProjectsController;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ProjectsController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SelfController;
 use App\Http\Controllers\AuthentificationController;
