@@ -6,7 +6,7 @@
     <p>{{ __('project.summary') }}</p>
 
     @auth
-        <h3><a href="project.create">{{ __('project.add_new_project') }}</a></h3>
+        <h3><a href="{{ url('projects/create') }}">{{ __('project.add_new_project') }}</a></h3>
     @endauth
 
     <!-- projects display -->

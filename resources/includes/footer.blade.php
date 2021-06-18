@@ -1,12 +1,12 @@
 @auth
 
-    <a href="{{ route('logout') }}">
+    <a href="{{ url('logout') }}">
         {{ __('auth.log_out') }}
     </a>
 
 @else
 
-    <a href="{{ route('loginPage') }}">
+    <a href="{{ url('login') }}">
         {{ __('auth.log_in') }}
     </a>
 

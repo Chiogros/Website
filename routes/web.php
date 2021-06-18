@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SelfController;
-use App\Http\Controllers\LoginController;
+use App\Http\Controllers\AuthentificationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +34,6 @@ Route::resource('projects', ProjectsController::class);
 Route::get('self', [SelfController::class, 'index']);
 
 // Login
-Route::get('login', [LoginController::class, 'index'])->name('loginPage');
-Route::post('login', [LoginController::class, 'authentify']);
-Route::delete('login', [LoginController::class, 'logout'])->name('logout');
+Route::get('login', [AuthentificationController::class, 'index']);
+Route::post('login/auth', [AuthentificationController::class, 'authentify']);
+Route::post('logout', [AuthentificationController::class, 'logout']);
