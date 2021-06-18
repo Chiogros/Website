@@ -1,6 +1,7 @@
 @auth
 
     <form method="POST" action="{{ url('logout') }}">
+        @csrf
         <input type="submit" value="{{ __('auth.log_out') }}">
     </form>
 
