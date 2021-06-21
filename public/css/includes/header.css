@@ -1,0 +1,15 @@
+header {
+    background-color: #827F5E;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    padding: 2em 0em;
+}
+
+nav li {
+    display: inline;
+    margin: 0em 3em;
+}
+

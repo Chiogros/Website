@@ -36,7 +36,7 @@ class AuthentificationController extends Controller
 
         $request->session()->regenerateToken();
 
-        return redirect('projects');
+        return redirect('/');
 
     }
 }

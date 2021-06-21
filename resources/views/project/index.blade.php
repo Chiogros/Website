@@ -1,6 +1,10 @@
 @extends('layout')
 
 @section('content')
+
+<link href="{{ asset('css/project/index.css') }}" rel="stylesheet">
+
+<div>
     <h1>{{ __('project.projects')  }}</h1>
 
     <p>{{ __('project.summary') }}</p>
@@ -9,7 +13,7 @@
         <h3><a href="{{ url('projects/create') }}">{{ __('project.add_new_project') }}</a></h3>
     @endauth
 
-    <!-- projects display -->
+<!-- projects display -->
     @foreach($projects as $project)
         <article>
 
@@ -23,7 +27,9 @@
                     {{ $project->summary }}
                 </p>
             </div>
+
         </article>
     @endforeach
+</div>
 
 @endsection

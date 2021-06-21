@@ -11,7 +11,8 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.postCss('resources/css/global.css', 'public/css');
-mix.postCss('resources/css/header.css', 'public/css');
-mix.postCss('resources/css/footer.css', 'public/css');
+mix.postCss('resources/css/includes/global.css', 'public/css/includes');
+mix.postCss('resources/css/includes/header.css', 'public/css/includes');
+mix.postCss('resources/css/includes/footer.css', 'public/css/includes');
+mix.postCss('resources/css/project/index.css', 'public/css/project');
 
