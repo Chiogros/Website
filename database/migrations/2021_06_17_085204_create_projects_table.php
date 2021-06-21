@@ -18,8 +18,8 @@ class CreateProjectsTable extends Migration
             $table->string('title');
             $table->string('summary');
             $table->string('image')->nullable();
-            $table->date('begin');
-            $table->date('end')->nullable();
+            $table->date('beginDate');
+            $table->date('endDate')->nullable();
             $table->string('skills');
             $table->timestamps();
         });

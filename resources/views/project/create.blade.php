@@ -2,7 +2,7 @@
 
 @section('content')
 
-<form method="POST" action="project">
+<form method="POST" action="{{ url('projects') }}">
 
     @csrf
 

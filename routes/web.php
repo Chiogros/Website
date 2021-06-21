@@ -22,12 +22,14 @@ use App\Http\Controllers\AuthentificationController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // Projects
-/*Route::get('projects', 'App\Http\Controllers\ProjectsController@index');
+/*
+Route::get('projects', 'App\Http\Controllers\ProjectsController@index');
 Route::get('projects/create', 'App\Http\Controllers\ProjectsController@create');
 Route::post('projects', 'App\Http\Controllers\ProjectsController@store');
 Route::get('projects/{project_id}/edit', 'App\Http\Controllers\ProjectsController@edit');
 Route::patch('projects/{project_id}', 'App\Http\Controllers\ProjectsController@update');
-Route::delete('projects/{project_id}', 'App\Http\Controllers\ProjectsController@destroy');*/
+Route::delete('projects/{project_id}', 'App\Http\Controllers\ProjectsController@destroy');
+*/
 Route::resource('projects', ProjectsController::class);
 
 // Self
