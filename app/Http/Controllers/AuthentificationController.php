@@ -23,7 +23,7 @@ class AuthentificationController extends Controller
             return redirect()->intended('projects');
         }
 
-        return back() ->withErrors([
+        return back()->withErrors([
             'email' => "The provided credentials do not match our records."
         ]);
     }

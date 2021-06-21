@@ -29,11 +29,11 @@ class ProjectsController extends Controller
 
         $data = $request->validate([
             'title' => 'required',
-            'summary' => '',
-            'image' => 'image',
+            'summary' => 'required',
+            'image' => 'nullable|image',
             'beginDate' => 'required|date',
-            'endDate' => 'required|date',
-            'skills' => ''
+            'endDate' => 'nullable|date',
+            'skills' => 'nullable'
         ]);
 
         $post = new Project($data);
@@ -42,4 +42,5 @@ class ProjectsController extends Controller
         return redirect('projects');
 
     }
+
 }
