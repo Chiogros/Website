@@ -37,5 +37,6 @@ Route::get('self', [SelfController::class, 'index']);
 
 // Login
 Route::get('login', [AuthentificationController::class, 'index']);
+Route::get('login/reset', [AuthentificationController::class, 'reset']);
 Route::post('login/auth', [AuthentificationController::class, 'authentify']);
 Route::post('logout', [AuthentificationController::class, 'logout']);

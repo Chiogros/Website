@@ -3,6 +3,7 @@
 return [
 
     "email" => "Email",
-    "password" => "Password"
+    "password" => "Password",
+    "reset" => "Reset"
 
 ];

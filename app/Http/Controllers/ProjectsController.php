@@ -37,6 +37,7 @@ class ProjectsController extends Controller
         ]);
 
         $post = new Project($data);
+
         $post->save();
 
         return redirect('projects');

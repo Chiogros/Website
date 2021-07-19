@@ -28,6 +28,10 @@ class AuthentificationController extends Controller
         ]);
     }
 
+    public function reset() {
+
+    }
+
     public function logout(Request $request) {
 
         Auth::logout();

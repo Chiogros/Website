@@ -19,6 +19,8 @@
 
     </form>
 
+    <a href="{{ url('login/reset') }}" ><p>{{ __('login.reset') }}</p></a>
+
 </body>
 
 </html>
