@@ -9,7 +9,7 @@
 <body>
 	<header>
 		<?php
-		require("part/header.php");
+		require("parts/header.php");
 		?>
 	</header>
 	
@@ -19,7 +19,7 @@
 	
 	<footer>
 		<?php
-		require("part/footer.php");
+		require("parts/footer.php");
 		?>
 	</footer>
 </body>

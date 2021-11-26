@@ -9,27 +9,49 @@
 <body>
 	<header>
 		<?php
-		require("part/header.php");
+		require("parts/header.php");
 		?>
 	</header>
 	
 	<section>
 		<h2>Projects</h2>
 		<?php
-		require("../data/projects.php");
+		require("../data/fr/projects.php");
 		
 		foreach ($projects as $project) { ?>
 			<article class="project">
-				<h3><?= $project["title"] ?></h3>
-				<p><?= $project["description"] ?></p>
-				<p><?= $project["language"] ?></p>
+				<div class="projectBody">
+					
+					<div>
+						<h3><?= $project["title"] ?></h3>
+						<p class="language"><?= $project["language"] ?></p>
+						<p class="description"><?= $project["description"] ?></p>
+					</div>
+					
+					<div>
+						<?php
+						if (isset($project["tryURL"])) { ?>
+							<a href="<?= $project["tryURL"] ?>">Try</a>
+						<?php 
+						}
+						if (isset($project["sourceCodeURL"])) { ?>
+							<a class="sourceCodeURL" href="<?= $project["sourceCodeURL"] ?>">Source code</a>
+						<?php } ?>
+					</div>
+				</div>
+				
+				<?php
+				if (isset($project["image"])) { ?>
+					<img class="projectImage" src="<?= $project["image"]["uri"] ?>"/>
+				<?php } ?>
+				
 			</article>
 		<?php } ?>
 	</section>
 	
 	<footer>
 		<?php
-		require("part/footer.php");
+		require("parts/footer.php");
 		?>
 	</footer>
 </body>

@@ -1,3 +1,5 @@
-p {
-	color: red;
+footer {
+	position: absolute;
+	bottom: 0em;
+	width: 100%;
 }
