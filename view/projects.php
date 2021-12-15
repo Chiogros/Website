@@ -20,15 +20,11 @@
 		
 		foreach ($projects as $project) { ?>
 			<article class="project">
-				<div class="projectBody">
+				 <h3><?= $project["title"] ?></h3>
+				 <p class="language"><?= $project["language"] ?></p>
+				 <p class="description"><?= $project["description"] ?></p>
 					
-					<div>
-						<h3><?= $project["title"] ?></h3>
-						<p class="language"><?= $project["language"] ?></p>
-						<p class="description"><?= $project["description"] ?></p>
-					</div>
-					
-					<div>
+				 <div>
 						<?php
 						if (isset($project["tryURL"])) { ?>
 							<a href="<?= $project["tryURL"] ?>">Try</a>
@@ -37,14 +33,7 @@
 						if (isset($project["sourceCodeURL"])) { ?>
 							<a class="sourceCodeURL" href="<?= $project["sourceCodeURL"] ?>">Source code</a>
 						<?php } ?>
-					</div>
 				</div>
-				
-				<?php
-				if (isset($project["image"])) { ?>
-					<img class="projectImage" src="<?= $project["image"]["uri"] ?>"/>
-				<?php } ?>
-				
 			</article>
 		<?php } ?>
 	</section>

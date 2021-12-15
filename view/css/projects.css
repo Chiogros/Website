@@ -5,18 +5,6 @@
 	border-radius: 0.7em;
 	box-shadow: 0em 0em 1em #00000003;
 	margin-bottom: 2em;
-	display: flex;
-	justify-content: space-between;
-}
-
-.projectBody {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.projectBody > div {
-	padding: 1em 2em;
 }
 
 .project h3 {
@@ -31,15 +19,12 @@
 
 .description {
 	margin-top: 0em;
+	margin-bottom: 0.5em;
 }
 
-.projectBody > div:last-child {
-	display: flex;
-	flex-direction: column;
-}
-
-.projectImage {
-	object-fit: contain;
-	max-width: 15em;
-	max-height: 30em;
+.project > div {
+	 margin-left: 1em;
+	 display: flex;
+	 flex-direction: column;
+	 font-size: smaller;
 }
