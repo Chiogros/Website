@@ -1,29 +1,30 @@
 .project {
 	width: 90%;
 	margin: auto;
-	background-color: #00000003;
+	background-color: #00000006;
 	border-radius: 0.7em;
-	box-shadow: 0em 0em 1em #00000003;
+	box-shadow: 0em 0em 1em #00000006;
 	margin-bottom: 2em;
+	padding: 1em;
 }
 
 .project h3 {
-	margin-bottom: 0em;
+	margin: 0em;
 }
 
 .language {
 	margin-top: 0em;
-	font-size: smaller;
+	font-size: small;
 	font-style: italic;
 }
 
 .description {
 	margin-top: 0em;
 	margin-bottom: 0.5em;
+	font-size: smaller;
 }
 
 .project > div {
-	 margin-left: 1em;
 	 display: flex;
 	 flex-direction: column;
 	 font-size: smaller;
