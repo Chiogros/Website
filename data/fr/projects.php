@@ -15,6 +15,13 @@ $projects = array(
 	],
 	*/
 	[
+                "title" => "Ligit",
+                "description" => "Container set to get latest website modifications and bring it through a webserver.",
+                "language" => "Dockerfile",
+                "sourceCodeURL" => "https://github.com/Chiogros/Ligit"
+
+        ],
+	[
 		"title" => "ASCII counter",
 		"description" => "ASCII characters in files and directories ranking.",
 		"language" => "C",
