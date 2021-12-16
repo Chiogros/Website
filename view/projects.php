@@ -27,11 +27,11 @@
 				 <div>
 						<?php
 						if (isset($project["tryURL"])) { ?>
-							<a href="<?= $project["tryURL"] ?>">Try</a>
+							<a href="<?= $project["tryURL"] ?>" target="_blank">Try</a>
 						<?php 
 						}
 						if (isset($project["sourceCodeURL"])) { ?>
-							<a class="sourceCodeURL" href="<?= $project["sourceCodeURL"] ?>">Source code</a>
+							<a class="sourceCodeURL" href="<?= $project["sourceCodeURL"] ?>" target="_blank" >Source code</a>
 						<?php } ?>
 				</div>
 			</article>
