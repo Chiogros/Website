@@ -1,11 +1,11 @@
 .project {
 	width: 90%;
 	margin: auto;
-	background-color: #00000006;
+	background-color: #00000005;
 	border-radius: 0.7em;
-	box-shadow: 0em 0em 1em #00000006;
+	box-shadow: 0em 0em 1em #00000018;
 	margin-bottom: 2em;
-	padding: 1em;
+	padding: 1.5em;
 }
 
 .project h3 {
