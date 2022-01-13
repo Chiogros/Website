@@ -13,7 +13,7 @@
 		?>
 	</header>
 	<section>
-		<h2>Curriculum Vitae</h2>
+		<h2>Curriculum Vitæ</h2>
 	</section>
 	<footer>
 		<?php
