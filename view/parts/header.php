@@ -1,9 +1,9 @@
 <?php
 
 $pages = array(
-	["Accueil", "homepage.php"],
-	["Projets", "projects.php"],
-	["Curriculum Vitae", "cv.php"]
+	["Home", "homepage.php"],
+	["Projects", "projects.php"],
+	["Curriculum Vitæ", "cv.php"]
 );
 
 ?>
