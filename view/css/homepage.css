@@ -3,3 +3,7 @@ footer {
 	bottom: 0em;
 	width: 100%;
 }
+
+#cringe {
+	 display: none;
+}

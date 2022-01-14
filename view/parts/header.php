@@ -9,6 +9,7 @@ $pages = array(
 ?>
 
 <link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/algorithm.css">
 <nav>
 	<ul>
 		<?php
@@ -17,3 +18,6 @@ $pages = array(
 		<?php } ?>
 	</ul>
 </nav>
+			 <script>
+			 console.log("Alexandrium atomic number")
+			 </script>
