@@ -28,7 +28,6 @@ Apart from brainfuck activities, I love being outside among trees or mountains w
 	  </p>
     <p>
 Currently grabbing information about: Blockchain, Cybersecurity<br>
-<div id="cringe">cringe.html</div>
     </p>
 	</section>
 	
