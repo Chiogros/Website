@@ -4,6 +4,7 @@
 	<link rel="stylesheet" href="css/body.css">
 	<link rel="stylesheet" href="css/projects.css">
 	<meta charset="UTF-8">
+  <link rel="icon" href="data:,">
 	<title>Alexandre Bouijoux</title>
 </head>
 <body>
