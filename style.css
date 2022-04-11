@@ -1,0 +1,80 @@
+body {
+	margin: 0em;
+	font-family: sans-serif;
+	background-color: #1d1e20;
+	color: white;
+}
+
+
+/* Change default behaviors */
+p,h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+	margin: 0em;
+}
+
+
+/* Hyperlinks */
+a {
+	text-decoration-line: none;
+	font-weight: bold;
+	color: white;
+}
+
+a:hover {
+	opacity: 0.6;
+}
+
+
+/* Horizontal alignment */
+header,section,footer {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/* Vertical alignments */
+header {
+	top: 5%;
+}
+
+section {
+	top: 50%;
+}
+
+footer {
+	bottom: 0%;
+	font-style: italic;
+	opacity: 0.5;
+	font-size: small;
+}
+
+
+#logo {
+	max-width: 10em;
+}
+
+#networks {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 2em;
+}
+
+#mastodon {
+	max-width: 1.75em;
+}
+
+#github {
+	max-width: 1.55em;
+}
+
+#rootme {
+	max-width: 1.75em;
+}
+
+#email {
+	display: inline;
+	vertical-align: super;
+	font-size: 1.25em;
+}
