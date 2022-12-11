@@ -55,14 +55,16 @@ footer {
 
 #logo {
 	max-width: 10em;
+	margin-bottom: 2em;
 }
 
 #networks {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 2em;
-	width: 10em;
+	margin-top: 1em;
+	width: 8em;
+	opacity: 0.8;
 }
 
 #mastodon, #rootme {
