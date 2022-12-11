@@ -40,6 +40,9 @@ header {
 
 section {
 	top: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 footer {
@@ -59,18 +62,15 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 2em;
+	width: 10em;
 }
 
-#mastodon {
+#mastodon, #rootme {
 	max-width: 1.75em;
 }
 
 #github {
 	max-width: 1.55em;
-}
-
-#rootme {
-	max-width: 1.75em;
 }
 
 #email {
