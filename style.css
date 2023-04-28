@@ -67,6 +67,25 @@ footer {
 	opacity: 0.8;
 }
 
+/* oui je met ca en plein milieu et alors */
+:root {
+	--highlight-color: null;
+}
+
+#pranked {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2em;
+	width: 15em;
+	color: #1d1e20;
+	scrollbar-highlight-color: aqua;
+	/* salut */
+}
+
+h1::selection {
+	background: var(--highlight-color);
+}
+
 #mastodon, #rootme {
 	max-width: 1.75em;
 }
