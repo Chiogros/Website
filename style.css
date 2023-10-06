@@ -63,15 +63,15 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 1em;
-	width: 8em;
-	opacity: 0.8;
+	width: 10em;
+	opacity: 1;
 }
 
 #mastodon, #rootme {
 	max-width: 1.75em;
 }
 
-#github {
+#github, #linkedin {
 	max-width: 1.55em;
 }
 
