@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 49">
+	<polygon points="0,0 49,0 49,49 0,49" fill="#1d1e20" />
+
+	<polygon points="7,7 14,7 14,14 7,14" fill="white" />
+	<polygon points="21,7 28,7 28,14 21,14" fill="white" />
+	<polygon points="35,7 42,7 42,14 35,14" fill="white" />
+
+	<polygon points="14,28 21,28 21,42 14,42" fill="blue" />
+	<polygon points="21,21 28,21 28,35 21,35" fill="white" />
+	<polygon points="28,28 35,28 35,42 28,42" fill="red" />
+</svg>
