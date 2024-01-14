@@ -1,3 +1,3 @@
-# Personnal website
+# Personal website
 
-You can check it out at [https://www.bouijoux.fr](https://www.bouijoux.fr).
+You can browse it via [https://www.bouijoux.fr](https://www.bouijoux.fr).
